@@ -1,0 +1,30 @@
+{
+  "name": "mypwa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate-pwa-assets": "pwa-assets-generator"
+  },
+  "dependencies": {
+    "@iconify-json/mdi": "^1.1.53",
+    "animate.css": "^3.7.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^4.1.1",
+    "@vite-pwa/assets-generator": "^0.0.4",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "sass": "^1.64.1",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5",
+    "vite-plugin-pwa": "^0.16.4",
+    "vue-router": "^4.2.4",
+    "workbox-precaching": "^7.0.0"
+  }
+}

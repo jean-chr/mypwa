@@ -1,0 +1,53 @@
+/* tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Vos styles personnalisés ici */
+
+@import "animate.css/animate.css";
+
+   /* Ajuster la hauteur de la liste pour permettre le défilement sans défilement de la page */
+   .user-list {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  /* Style d'arrière-plan de l'en-tête */
+  header {
+    background-color: #0e1d34;
+  }
+
+  /* Style de survol du lien */
+  a {
+    position: relative;
+    z-index: 1;
+    transition: color 0.2s ease;
+  }
+
+  a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;    
+    height: 2px;
+    background-color: #3182ce;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+    z-index: -1;
+  }
+
+  a:hover {
+    color: #3182ce;
+  }
+
+  a:hover::before {
+    transform: scaleX(1);
+  }
+
+  /* Style du curseur pointer */
+  .cursor-pointer {
+    cursor: pointer;
+  }
