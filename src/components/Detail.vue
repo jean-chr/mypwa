@@ -1,8 +1,8 @@
 <template>
-    <div class="dark:bg-blue-100 container mx-auto">
+    <div class="dark:bg-blue-100 shadow-md rounded-lg container mx-auto">
         <h1 class="text-4xl text-center font-bold">username</h1>
         <div class="col-span-8">
-        <div class="shadow-md rounded-lg p-4 max-w-md mx-auto">
+        <div class="p-4 max-w-md mx-auto">
           <div class="flex flex-col items-center justify-center space-y-4">
             <img class="h-12 w-12 rounded-full object-cover" src="/vite.svg" alt="Votre Nom">
             <div>
