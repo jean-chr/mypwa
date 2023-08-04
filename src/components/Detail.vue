@@ -4,7 +4,7 @@
         <div class="col-span-8">
         <div class="bg-white dark:bg-gray-700 shadow-md rounded-lg p-4 max-w-md mx-auto">
           <div class="flex flex-col items-center justify-center space-y-4">
-            <img class="h-12 w-12 rounded-full object-cover" src="votre_image.jpg" alt="Votre Nom">
+            <img class="h-12 w-12 rounded-full object-cover" src="/vite.svg" alt="Votre Nom">
             <div>
               <div class="font-bold text-xl">Votre Nom</div>
               <div class="text-gray-500">Votre Métier</div>

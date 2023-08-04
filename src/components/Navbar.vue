@@ -5,7 +5,7 @@
     <div class="relative flex h-16 items-center justify-between">
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex flex-shrink-0 items-center">
-          <img class="h-8 w-auto" src="vite.svg" alt="Dev Community">
+          <img class="h-8 w-auto" src="/vite.svg" alt="Dev Community">
         </div>
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4">
@@ -35,7 +35,8 @@
 <script setup>
   import { ref, onMounted ,watch} from "vue";
   import { Icon } from '@iconify/vue';
-
+  /*import image vite.svg*/
+  
   const isDarkMode = ref(false);
 
   const changemode = () => {
