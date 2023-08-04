@@ -1,16 +1,16 @@
 <template>
-    <div class="bg-white dark:bg-gray-700 container mx-auto">
+    <div class="dark:bg-white container mx-auto">
         <h1 class="text-4xl text-center font-bold">username</h1>
         <div class="col-span-8">
-        <div class="bg-white dark:bg-gray-700 shadow-md rounded-lg p-4 max-w-md mx-auto">
+        <div class="shadow-md rounded-lg p-4 max-w-md mx-auto">
           <div class="flex flex-col items-center justify-center space-y-4">
             <img class="h-12 w-12 rounded-full object-cover" src="/vite.svg" alt="Votre Nom">
             <div>
-              <div class="font-bold text-xl dark:bg-white">Name</div>
-              <div class="text-gray-500  dark:bg-white">Votre Métier</div>
+              <div class="font-bold text-xl ">Name</div>
+              <div class="text-gray-500  ">Votre Métier</div>
             </div>
           </div>
-          <p class="mt-4 dark:bg-white">Description de vous-même et de votre expérience.</p>
+          <p class="mt-4 ">Description de vous-même et de votre expérience.</p>
           <div class="mt-4 flex items-center space-x-4">
             <a href="mailto:votre@email.com" class="text-blue-500">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
