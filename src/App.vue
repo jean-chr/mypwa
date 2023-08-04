@@ -3,7 +3,7 @@
    <!-- NAVBAR -->
    <Navbar />
   <!-- CONTENT -->
-  <div class="main">
+  <div class="dark:bg-gray-700">
     <router-view></router-view>
   </div>
 

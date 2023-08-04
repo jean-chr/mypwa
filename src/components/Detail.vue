@@ -1,5 +1,5 @@
 <template>
-    <div class="dark:bg-white container mx-auto">
+    <div class="dark:bg-blue-100 container mx-auto">
         <h1 class="text-4xl text-center font-bold">username</h1>
         <div class="col-span-8">
         <div class="shadow-md rounded-lg p-4 max-w-md mx-auto">
